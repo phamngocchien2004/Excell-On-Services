@@ -1,0 +1,107 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html class="no-js" lang="zxx">
+
+<!-- Mirrored from nta0309-ecommerce-admin-dashboard.netlify.app/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 20 Apr 2024 11:41:12 GMT -->
+<!-- Added by HTTrack -->
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+    <!-- Meta Tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="keywords" content="Site keywords here">
+    <meta name="description" content="#">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Site Title -->
+    <title>Sherah - HTML eCommerce Dashboard Template</title>
+
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&amp;display=swap" rel="stylesheet">
+
+    <!-- Fav Icon -->
+    <link rel="icon" href="/Assets/Admin/img/favicon.png">
+
+    <!-- sherah Stylesheet -->
+    <link rel="stylesheet" href="/Assets/Admin/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/Assets/Admin/css/font-awesome-all.min.css">
+    <link rel="stylesheet" href="/Assets/Admin/css/charts.min.css">
+    <link rel="stylesheet" href="/Assets/Admin/css/datatables.min.css">
+    <link rel="stylesheet" href="/Assets/Admin/css/jvector-map.css">
+    <link rel="stylesheet" href="/Assets/Admin/css/slickslider.min.css">
+    <link rel="stylesheet" href="/Assets/Admin/css/jquery-ui.css">
+    <link rel="stylesheet" href="/Assets/Admin/css/reset.css">
+    <link rel="stylesheet" href="/Assets/Admin/css/style.css">
+
+</head>
+<body id="sherah-dark-light">
+
+    <div class="sherah-body-area">
+        <!-- sherah Admin Menu -->
+        <div class="sherah-smenu">
+            <!-- Admin Menu -->
+            <div class="admin-menu">
+
+                <!-- Logo -->
+                <div class="logo sherah-sidebar-padding">
+                    <a href='index.html'>
+                        <img class="sherah-logo__main" src="/Assets/Admin/img/logo.png" alt="#">
+                    </a>
+                    <div class="sherah__sicon close-icon d-xl-none">
+                        <svg width="9" height="15" viewBox="0 0 9 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M6.19855 7.41927C4.22908 5.52503 2.34913 3.72698 0.487273 1.90989C0.274898 1.70227 0.0977597 1.40419 0.026333 1.11848C-0.0746168 0.717537 0.122521 0.36707 0.483464 0.154695C0.856788 -0.0643475 1.24249 -0.0519669 1.60248 0.199455C1.73105 0.289929 1.84438 0.404212 1.95771 0.514685C4.00528 2.48321 6.05189 4.45173 8.09755 6.4212C8.82896 7.12499 8.83372 7.6145 8.11565 8.30687C6.05856 10.2878 4.00052 12.2677 1.94152 14.2467C1.82724 14.3562 1.71391 14.4696 1.58439 14.5591C1.17773 14.841 0.615842 14.781 0.27966 14.4324C-0.056522 14.0829 -0.0946163 13.5191 0.202519 13.1248C0.296802 12.9991 0.415847 12.8915 0.530129 12.781C2.29104 11.0868 4.05194 9.39351 5.81571 7.70212C5.91761 7.60593 6.04332 7.53355 6.19855 7.41927Z"></path>
+                        </svg>
+                    </div>
+                </div>
+                <!-- Main Menu -->
+                <div class="admin-menu__one sherah-sidebar-padding">
+                    <!-- Nav Menu -->
+                    @RenderPage("_LeftMenu.cshtml")
+                    <!-- End Nav Menu -->
+                </div>
+
+            </div>
+            <!-- End Admin Menu -->
+        </div>
+        <!-- End sherah Admin Menu -->
+        <!-- Start Header -->
+        <header class="sherah-header">
+            <div class="container g-0">
+                <div class="row g-0">
+                    <div class="col-12">
+                        <!-- Dashboard Header -->
+                        @RenderPage("_NavBar.cshtml")
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- End Header -->
+        <!-- sherah Dashboard -->
+       
+                            <!-- Dashboard Inner -->
+                            @RenderBody();
+              
+        <!-- End sherah Dashboard -->
+    </div>
+
+    <!-- Sherah Scripts -->
+    <script src="/Assets/Admin/js/jquery.min.js"></script>
+    <script src="/Assets/Admin/js/jquery-migrate.js"></script>
+    <script src="/Assets/Admin/js/jquery-ui.min.js"></script>
+    <script src="/Assets/Admin/js/popper.min.js"></script>
+    <script src="/Assets/Admin/js/bootstrap.min.js"></script>
+    <script src="/Assets/Admin/js/charts.js"></script>
+    <script src="/Assets/Admin/js/datatables.min.js"></script>
+    <script src="/Assets/Admin/js/circle-progress.min.js"></script>
+    <script src="/Assets/Admin/js/jquery-jvectormap.js"></script>
+    <script src="/Assets/Admin/js/jvector-map.js"></script>
+    <script src="/Assets/Admin/js/slickslider.min.js"></script>
+    <script src="/Assets/Admin/js/main.js"></script>
+
+    
+</body>
+</html>
